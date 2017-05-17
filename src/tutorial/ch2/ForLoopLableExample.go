@@ -35,7 +35,7 @@ func loopWithLable() {
 	for row := 0; row < len(table); row++ {
 		for col := 0; col < len(table[row]); col++ {
 			if table[row][col] == x {
-				fmt.Println("found %d(row:%d, col:%d)", x, row, col)
+				fmt.Printf("found %d(row:%d, col:%d)\n", x, row, col)
 				break LOOP
 			}
 		}
